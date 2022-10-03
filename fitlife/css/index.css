@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/images/head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: goldenrod;
+}
+nav span{
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 1em;
+}
+nav ul li a{
+    color: goldenrod;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.contain{
+    padding: 1em;
+    width: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contain h3{
+    font-size: 3em;
+}
+.contain button{
+    padding: 7px;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    width: 7em;
+    background: none;
+    color: #f2f2f2;
+    margin-top: 5em;
+    cursor: pointer;
+}
+.suggest{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.suggest div{
+    background:white;
+    padding: 2em;
+    margin: 1em;
+    width: 17em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.suggest div h3{
+    color: black;
+    text-align: center;
+}
+.suggest div p{
+    padding: 5px;
+    color: black;
+    text-align: center;
+}
+.container :first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h3{
+    font-size: 2em;
+    margin: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container p{
+    margin:10px 0 30px 0;
+}
+.container h3, .container p{
+    text-align: center;
+    width: 30em;
+}
+.container .images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .images img{
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+}
+.contained{
+    background: #f2f2f2;
+}
+.contained :first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contained h3, .contained p{
+    text-align: center;
+    width: 50em;
+}
+.help div{
+    background:none;
+    padding: 2em;
+    margin: 1em;
+    width: 17em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.help{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.help h4{
+    padding-bottom: 1em;
+    font-size: 20px;
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+}
+#button{
+    padding: 7px;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    width: 7em;
+    background: none;
+    margin-top: 5em;
+    cursor: pointer;
+    align-items: center;
+}
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+}
+.more div{
+    width: 200px;
+    height: 200px;
+}
+.more .image1{
+    background: url(/images/des6.jpeg);
+}
+.more .image2{
+    background: url(/images/des7.jpeg);
+}
+.more .border{
+    margin: 0 20px;
+    border: 1px solid goldenrod;
+    padding: 1em;
+}
+.end{
+    margin-top: 2em;
+    display: flex;
+
+}
+.end div{
+    width: 50%;
+    height: 550px;
+}
+.end .imaged{
+    background: url(/images/des8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.not-imaged{
+    background: #f2f2f2;
+    box-sizing: border-box;
+    padding:1em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.not-imaged h4{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1em;
+    margin-left: -6em;
+}
+.not-imaged .para1{
+    margin: 1em 0;
+}
+.not-imaged button{
+    background: none;
+    padding: 5px;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    width: 100px;
+}
